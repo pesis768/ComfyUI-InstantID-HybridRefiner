@@ -11,6 +11,6 @@ requires-python = ">=3.10"
 Repository = "https://github.com/pesis768/ComfyUI-InstantID-HybridRefiner"
 
 [tool.comfy]
-PublisherId = "comfyui-instantid-hybrid"
+PublisherId = "pesis768"
 DisplayName = "ComfyUI InstantID Hybrid Face Refiner"
 Icon = ""
