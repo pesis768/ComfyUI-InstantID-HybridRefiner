@@ -1,0 +1,16 @@
+[project]
+name = "comfyui-instantid-hybridrefiner"
+description = "High-fidelity InstantID Hybrid Face Refiner with native folder picker, multi-face gender/spatial selection, anatomical mouth/nose mask protection, preset profiles, and post-refinement polish for Krea 2 and MOSS-Image SFT."
+version = "1.0.0"
+license = { text = "Apache-2.0" }
+dependencies = ["insightface>=0.7.3", "onnxruntime-gpu", "opencv-python-headless"]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.urls]
+Repository = "https://github.com/pesis768/ComfyUI-InstantID-HybridRefiner"
+
+[tool.comfy]
+PublisherId = "comfyui-instantid-hybrid"
+DisplayName = "ComfyUI InstantID Hybrid Face Refiner"
+Icon = ""
