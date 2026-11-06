@@ -3,7 +3,7 @@
 An advanced, high-fidelity **InstantID** face refiner suite for [ComfyUI](https://github.com/comfyanonymous/ComfyUI), specifically designed to provide photo-realistic identity preservation with modern diffusion backends (**Krea 2**, **MOSS-Image SFT**, and **SDXL**).
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![ComfyUI Registry](https://img.shields.io/badge/Comfy_Registry-Available-green.svg)](https://comfyregistry.org)
+[![ComfyUI Registry](https://img.shields.io/badge/Comfy_Registry-Available-green.svg)](https://registry.comfy.org)
 
 ---
 
