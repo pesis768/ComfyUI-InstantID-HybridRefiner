@@ -587,8 +587,6 @@ class ApplyInstantIDControlNet:
         return(cond_uncond[0], cond_uncond[1])
 
 
-from .hybrid_refiner import InstantIDKrea2FaceRefiner, InstantIDMossFaceRefiner
-
 NODE_CLASS_MAPPINGS = {
     "InstantIDModelLoader": InstantIDModelLoader,
     "InstantIDFaceAnalysis": InstantIDFaceAnalysis,
@@ -598,8 +596,6 @@ NODE_CLASS_MAPPINGS = {
 
     "InstantIDAttentionPatch": InstantIDAttentionPatch,
     "ApplyInstantIDControlNet": ApplyInstantIDControlNet,
-    "InstantIDKrea2FaceRefiner": InstantIDKrea2FaceRefiner,
-    "InstantIDMossFaceRefiner": InstantIDMossFaceRefiner,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
@@ -611,6 +607,4 @@ NODE_DISPLAY_NAME_MAPPINGS = {
 
     "InstantIDAttentionPatch": "InstantID Patch Attention",
     "ApplyInstantIDControlNet": "InstantID Apply ControlNet",
-    "InstantIDKrea2FaceRefiner": "InstantID Face Refiner (Krea 2 / Hybrid)",
-    "InstantIDMossFaceRefiner": "InstantID Face Refiner (MOSS-Image SFT)",
 }
